@@ -26,7 +26,7 @@ global.cache_used = 1000000000 // 1 GB in this example [Cached Limiter (if your 
 global.owner = [
 	//	['6281234288573'],
 	['212706611366'],
-	['6282331033919', 'aseli', true],
+	['62895615063060', 'aseli', true],
 	['6282256080304'],
 	['6285751414996'],
 	['62882124301380']
@@ -34,11 +34,11 @@ global.owner = [
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.cookie = {
-	bing: 'cokes', // join channel buat dapatin cookie bing chat
+	bing: 'javascript:window.cookieStore.getAll().then(v => prompt("here your cookies", "_U="+v.find(v => v.name == "_U").value))`', // join channel buat dapatin cookie bing chat
 	gemini: {
 		'__Secure-1PSID': 'cokes' // join channel buat cara dapatin cookie gemini
 	},
-	cai: "" // join channel buat cara dapatin token ce ai
+	cai: "a02b1605790d4a2c96dee998838078569e24e2c6" // join channel buat cara dapatin token ce ai
 }
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
@@ -47,9 +47,9 @@ global.packname = 'I ʜᴏᴘᴇ Yᴏᴜ\'ʀᴇ ғɪɴᴇ'
 global.author = '@x7||skizo'
 global.wm = '©skizo.tech'
 global.no_wallet = ''
-global.nomorown = '6282331033919'
-global.nomorbot = "" // nomer buat bot (login via kode)
-global.xznkey = 'apikeh' // chat atmin buat dapetin apikeynya skizo.tech/pricing
+global.nomorown = '62895615063060'
+global.nomorbot = "6289507920799" // nomer buat bot (login via kode)
+global.xznkey = 'namaaris' // chat atmin buat dapetin apikeynya skizo.tech/pricing
 global.profil = fs.readFileSync("./src/profil.jpg")
 global.anunya = fs.readFileSync("./src/anunya.jpg")
 global.log = function log() {
@@ -61,7 +61,7 @@ global.APIs = { // API Prefix
 	xzn: 'https://skizo.tech/',
 }
 global.APIKeys = { // APIKey Here
-	// 'https://website': 'apikey'
+	// 'https://website': 'namaaris'
 	'https://skizo.tech/': xznkey
 }
 global.multiplier = 69
